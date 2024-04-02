@@ -1,26 +1,14 @@
+import co.rauldesouza.megasena.User;
+
 import java.util.Random;
 
 public class MegaSena {
 
         public static void main(String[] args) {
-                Random generate = new Random();
+            Random generate = new Random();
 
-                /*
-                   while (true)  ou for(; ;) -> looping infinito
-                   while (i < 10) -> looping com saída ex: saira apenas 10 numeros
+            User user = new User();
+            //tipo variavel = new tipo();
 
-                                int i = 0;
-                             while(i < 6) {
-                                       int number = generate.nextInt(60);
-                                System.out.println(number);
-                              i++;
-                                }
-                 */
-
-            for(  int i = 0; i < 6; i ++){
-                                int number = generate.nextInt(60);
-                                System.out.println(number);
-
-        }
         }
 }
