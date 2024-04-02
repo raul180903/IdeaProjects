@@ -22,7 +22,6 @@ public class Calculate {
     static void sum (int x, int y){
         System.out.println(x + y);
     }
-
     static void minus (int x, int y){
         System.out.println(x - y);
     }
